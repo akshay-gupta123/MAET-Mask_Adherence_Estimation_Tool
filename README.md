@@ -29,4 +29,4 @@ Above are the two screenshots of the tool. For full demo video refer to <a href=
 
 ## Refrences
 * [Prof. Biplav Srivastava's Github Repo](https://github.com/biplav-s)
-* [Training Notebooks Repositories](https://github.com/akshay-gupta123/Face-Mask-Detection)
+* [Training Notebooks Repository](https://github.com/akshay-gupta123/Face-Mask-Detection)
