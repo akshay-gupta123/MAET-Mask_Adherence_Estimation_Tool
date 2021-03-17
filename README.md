@@ -15,14 +15,14 @@ Local Deployment
 python app.py
 ```
 ## Method
-![Flow](https://drive.google.com/uc?export=view&id=1Eyrje5nNPh_268wIxUkbwx5SaAuvGLgk)
+![Flow](/assets/flow.png)
 
 The proposed workflow is shown in figure above. The detection model takes an arbitrary sized image, outputs an object localization, object confidence and class for each detected faces in the image. Then, a particular face is selected, and LIME runs for that target. LIME returns a segmented mask using Quickshift segmentation algorithm, with green segments contributing positively, red negatively towards prediction. In the tool, instead of making users counting the proportion of mask adherence, we provide composite labels about the degree of mask adherence in an image based on configurable parameters.
 
 ## Results
 <p float="left">
-  <img src="https://drive.google.com/uc?export=view&id=1wUYdsyXbfwGXE3stdKaMdssruIc97Zor" width="450" />
-  <img src="https://drive.google.com/uc?export=view&id=1AvrYA35CFw1Nk9MhJGeChvxuHMAfW15B" width="450" /> 
+  <img src="/assets/image1.png" width="450" />
+  <img src="/assets/image2.png" width="450" /> 
 </p>
 
 Above are the two screenshots of the tool. For full demo video refer to <a href="https://drive.google.com/file/d/18f6BSZ3Ck4P9syDWY3hn37PLIxu8oW2K/view">DEMO</a>
